@@ -1,38 +1,48 @@
 # Podchaser (podchaser)
-Tap into the most comprehensive podcast database with a podcast API built specifically to drive discovery for listeners, podcasters, and brands. 
+
+Podchaser provides one of the most comprehensive podcast databases, exposed through a GraphQL API designed to drive podcast discovery for listeners, podcasters, brands, and platform partners. The API surface is GraphQL-only and is therefore not represented as an OpenAPI specification in this index.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/podchaser/refs/heads/main/apis.yml)
 
 ## Scope
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+- **Type:** Index
+- **Position:** Consumer
+- **Access:** 3rd-Party
 
-## Tags:
+## Tags
 
- - API
+- Podcasting, Discovery, GraphQL, Database
 
 ## Timestamps
 
-- **Created:** 2025-05-02 
-- **Modified:** 2025-05-02 
+- **Created:** 2025-05-02
+- **Modified:** 2026-04-28
 
 ## APIs
 
-### Podchaser
-Tap into the most comprehensive podcast database with a podcast API built specifically to drive discovery for listeners, podcasters, and brands. 
+### Podchaser GraphQL API
 
-**Human URL:** [ https://features.podchaser.com/api/]( https://features.podchaser.com/api/)
+Podchaser's GraphQL API provides programmatic access to podcasts, episodes, creators, credits, reviews, and lists across the Podchaser database. Authentication is handled via OAuth-style API tokens and the single endpoint is queried with GraphQL operations.
 
+**Human URL:** [https://www.podchaser.com/api](https://www.podchaser.com/api)
 
-#### Tags:
+**Base URL:** `https://api.podchaser.com/graphql`
 
- - API
+#### Tags
+
+- Podcasting, GraphQL, Discovery, Metadata
 
 #### Properties
 
-- [Documentation]( https://features.podchaser.com/api/)
+- [Documentation](https://api-docs.podchaser.com/)
+- [GraphQL Schema](https://api-docs.podchaser.com/docs/reference/schema)
+
+## Common Properties
+
+- [Website](https://www.podchaser.com/)
+- [Documentation](https://api-docs.podchaser.com/)
+- [API Portal](https://www.podchaser.com/api)
 
 ## Maintainers
 

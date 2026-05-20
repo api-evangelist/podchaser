@@ -40,6 +40,8 @@ apis:
       - type: GraphQLSchema
         url: https://api-docs.podchaser.com/docs/reference/schema
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/podchaser
   - type: Website
     url: https://www.podchaser.com/
   - type: Documentation

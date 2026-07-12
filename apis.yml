@@ -42,6 +42,8 @@ apis:
   - url: graphql/podchaser-graphql.md
     type: GraphQL
 common:
+- type: DomainSecurity
+  url: security/podchaser-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/podchaser
 - type: Website

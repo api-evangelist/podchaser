@@ -16,8 +16,11 @@ deployment:
 tools_count: 2
 tools:
 - name: introspect_schema
-  description: ''
+  description: Introspect the GraphQL schema. Use this tool or the GraphQL Schema resource before doing
+    a query to get the schema information if you do not have it available as a resource already.
 - name: query_graphql
-  description: ''
+  description: Query a GraphQL endpoint with the given query and variables.
 tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
 authorship: provider
+descriptions_source: live tools/list (authorship probe or saved capture); filled by backfill-tools-from-authorship.py
+  --descriptions, 2026-09-28

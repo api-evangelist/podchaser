@@ -38,7 +38,7 @@ tags:
 - GraphQL
 - Database
 created: '2025-05-02'
-modified: '2026-04-28'
+modified: '2026-10-06'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/podchaser/refs/heads/main/apis.yml
 specificationVersion: '0.23'
@@ -65,6 +65,8 @@ apis:
   - url: graphql/podchaser-graphql.md
     type: GraphQL
 common:
+- url: https://www.podchaser.com/blog/
+  type: Blog
 - type: DomainSecurity
   url: security/podchaser-domain-security.yml
 - type: LinkedIn

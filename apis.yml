@@ -33,6 +33,11 @@ position: Consuming
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/podchaser.png
 tags:
+- Podcasts
+- Discovery
+- GraphQL
+- Database
+tags_raw:
 - Podcasting
 - Discovery
 - GraphQL
@@ -53,6 +58,11 @@ apis:
   humanURL: https://www.podchaser.com/api
   baseURL: https://api.podchaser.com/graphql
   tags:
+  - Podcasts
+  - GraphQL
+  - Discovery
+  - Metadata
+  tags_raw:
   - Podcasting
   - GraphQL
   - Discovery

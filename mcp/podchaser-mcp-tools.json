@@ -1,0 +1,70 @@
+{
+  "endpoint": "https://api.podchaser.com/mcp",
+  "captured": "2026-10-20",
+  "method": "initialize + tools/list (anonymous, no tool called; roadmap#992)",
+  "protocol_version": "2025-06-18",
+  "server_info": {
+    "name": "podchaser-mcp-server",
+    "version": "3.3.1"
+  },
+  "result": {
+    "tools": [
+      {
+        "name": "introspect_schema",
+        "description": "Introspect the GraphQL schema.\nUse this tool or the GraphQL Schema resource before doing a query to get the schema information if you do not have it available as a resource already.",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {},
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      },
+      {
+        "name": "query_graphql",
+        "description": "Query a GraphQL endpoint with the given query and variables.",
+        "inputSchema": {
+          "additionalProperties": false,
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "The GraphQL query string"
+            },
+            "variables": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional JSON string of variables"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "type": "object"
+        },
+        "outputSchema": {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        "_meta": {
+          "fastmcp": {
+            "tags": []
+          }
+        }
+      }
+    ]
+  }
+}

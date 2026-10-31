@@ -1,4 +1,4 @@
-# Podchaser (podchaser)
+# Podchaser
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,50 +66,115 @@
 
 Podchaser provides one of the most comprehensive podcast databases, exposed through a GraphQL API designed to drive podcast discovery for listeners, podcasters, brands, and platform partners. The API surface is GraphQL-only and is therefore not represented as an OpenAPI specification in this index.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/podchaser/refs/heads/main/apis.yml)
+**Areas:** Podcasts · Discovery · GraphQL · Database
 
-## Scope
+## Podchaser on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Podchaser is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/podchaser/](https://apis.io/providers/podchaser/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Podcasting, Discovery, GraphQL, Database
+- [Podchaser GraphQL API](https://apis.io/apis/podchaser/podchaser/) — Podchaser's GraphQL API provides programmatic access to podcasts, episodes, creators, credits, reviews, and lists across the Podchaser database.…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-05-02
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### GraphQL (1)
 
-### Podchaser GraphQL API
+GraphQL schemas.
 
-Podchaser's GraphQL API provides programmatic access to podcasts, episodes, creators, credits, reviews, and lists across the Podchaser database. Authentication is handled via OAuth-style API tokens and the single endpoint is queried with GraphQL operations.
+- [Podchaser GraphQL API](https://apis.io/graphqls/podchaser/podchaser-graphql/)
 
-**Human URL:** [https://www.podchaser.com/api](https://www.podchaser.com/api)
+#### MCP servers (1)
 
-**Base URL:** `https://api.podchaser.com/graphql`
+Model Context Protocol servers that expose the API to agents.
 
-#### Tags
+- [podchaser](https://apis.io/servers/podchaser/podchaser/)
 
-- Podcasting, GraphQL, Discovery, Metadata
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://api-docs.podchaser.com/)
-- [GraphQL Schema](https://api-docs.podchaser.com/docs/reference/schema)
+- [Podchaser Domain Security](https://apis.io/security/podchaser/podchaser-domain-security/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Podchaser Plans Pricing](https://apis.io/plans/podchaser/podchaser-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Podchaser Rate Limits](https://apis.io/rate-limits/podchaser/podchaser-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Podchaser Finops](https://apis.io/finops/podchaser/podchaser-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.podchaser.com/)
 - [Documentation](https://api-docs.podchaser.com/)
-- [API Portal](https://www.podchaser.com/api)
+- [Blog](https://www.podchaser.com/blog/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 9.6** — minimal · rubric 0.25.0 · scored 2026-10-23
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 60.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
+
+**Agent readiness 9.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/podchaser/](https://apis.io/providers/podchaser/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Podchaser: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/podchaser/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
